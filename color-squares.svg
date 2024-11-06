@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background checkerboard for transparency reference -->
+  <defs>
+    <pattern id="checker" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#eee"/>
+      <rect x="10" y="0" width="10" height="10" fill="#ddd"/>
+      <rect x="0" y="10" width="10" height="10" fill="#ddd"/>
+      <rect x="10" y="10" width="10" height="10" fill="#eee"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="100" fill="url(#checker)"/>
+  
+  <!-- First color (42159,40296,24633) -->
+  <!-- Converting 16-bit to 8-bit by dividing by 256 -->
+  <rect x="10" y="10" width="80" height="80" fill="rgb(165,157,96)"/>
+  
+  <!-- Second color (37456.9,40687.1,32409.3) -->
+  <!-- Converting 16-bit to 8-bit by dividing by 256 and rounding -->
+  <rect x="110" y="10" width="80" height="80" fill="rgb(146,159,127)"/>
+  
+  <!-- Labels -->
+  <text x="50" y="105" text-anchor="middle" font-size="12">#1</text>
+  <text x="150" y="105" text-anchor="middle" font-size="12">#2</text>
+</svg>
